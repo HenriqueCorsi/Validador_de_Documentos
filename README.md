@@ -1,4 +1,4 @@
-# Validador_de_Documentos
+# Validador de documentos para padrões nacionais.
 # Projeto
 Tem como objetivo validar documentos, até o momento o sistema consegue realizar a validação de CPFs e CNPJ.
 # Techs
