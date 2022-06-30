@@ -4,7 +4,9 @@ def menu():
     print('-------------------------------')
     menu = ['[1] -> CPF',
             '[2] -> CNPJ',
-            '[5] -> Sair']
+            '[3] -> TELEFONE',
+            '[5] -> Sair'            
+            ]
     for x in menu:
         print(x)
     print('-------------------------------')
