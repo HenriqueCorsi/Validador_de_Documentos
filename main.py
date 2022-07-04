@@ -1,6 +1,7 @@
 from validador_cpf import *
 from validador_cnpj import *
 from validador_telefone import *
+from validador_cep import *
 from menu import *
 
 
@@ -17,9 +18,12 @@ elif select_user == 3:  # TELEFONE
     telefone = input('Digite o TELEFONE que gostaria de verificar: ')
     validador_telefone(telefone)
 elif select_user == 4:  # CEP
-    pass
+    cep = input('Digite o CEP que gostaria de verificar: ')
+    validador_cep(cep)
+    acessando_cep(cep)
 elif select_user == 5:
     print('Até logo...')
 else:
     print('Opção Inválida')
+    
 
